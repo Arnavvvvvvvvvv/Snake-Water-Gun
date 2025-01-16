@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameZone</title>
+    <link rel="stylesheet" href="style.css">
+    <link data-default-icon="https://img.freepik.com/premium-photo/neon-outline-video-game-controller-against-black-background_14117-804701.jpg" size="200x200" rel="icon"
+    href="https://img.freepik.com/premium-photo/neon-outline-video-game-controller-against-black-background_14117-804701.jpg">
+    <script src="https://kit.fontawesome.com/104e3c8c86.js" crossorigin="anonymous"></script>
+</head>
+<header><h1>Snake Water Gun</h1></header>
+<body>
+    <button id="mode">
+        <i class="fa-solid fa-moon"></i>
+        Theme
+    </button>
+    <div class="choices">
+        <div class="choice" id="snake">
+            <img src="https://thumbs.dreamstime.com/b/nice-snake-27078615.jpg" alt="snake">
+        </div>
+        <div class="choice" id="water">
+            <img src="https://img.freepik.com/premium-vector/water-drop-splash-white-background_52465-155.jpg?semt=ais_hybrid" alt="water">
+        </div>
+        <div class="choice" id="gun">
+            <img src="https://img.freepik.com/premium-photo/gun-white-background_334364-22644.jpg" alt="gun">
+        </div>
+    </div>
+    <div class="score-board">
+        <div class="score">
+            <p id="userscore">0</p>
+            <p>You</p>
+        </div>
+        <div class="score">
+            <p id="compscore">0</p>
+            <p>Computer</p>
+        </div>
+    </div>
+    <div class="msg-container">
+        <p id="msg">Play your move</p>
+    </div> <br>
+    <button id="retryBtn">
+        Play Again? 
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>

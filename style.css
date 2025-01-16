@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1{
+    background-color: black;
+    color: whitesmoke;
+    height: 5rem;
+    line-height: 5rem;
+    font-family: cursive;
+    font-size: 3rem;
+}
+
+#mode{
+    position: absolute;
+    top: 78.8px;
+    right: 0px;
+    font-family:monospace;
+    font-size: 20px;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+}
+
+img{
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    object-fit: cover;
+    border-radius: 50%;
+    border: solid black 5px;
+}
+
+.choice:hover{
+    opacity: 40%;
+    cursor: pointer;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5rem;
+    margin-top: 5rem;
+}
+
+
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 5rem;
+    margin-top: 4rem;
+}
+
+#userscore,
+#compscore{
+    font-size: 3rem;
+}
+
+.msg-container{
+    margin-top: 3rem;
+}
+
+#msg{
+    background-color: rgb(249, 205, 147);
+    font-size: 3rem;
+    display: inline;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+#retryBtn{
+    display: none;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px 30px;
+    text-align: center;
+    font-size: 25px;
+    border: dashed white 2px;
+    margin-top: 10px;
+    position: absolute;
+    left: 43.75%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#retryBtn:hover {
+    background-color: rgb(245, 185, 106); 
+}
+
+.light{
+    background-color: black;
+    color: white;
+}
+
+.dark{
+    background-color: white;
+    color: black;
+}
